@@ -1,0 +1,60 @@
+.banner {
+    background-image: url('../../images/banner-fondo.png');
+    height: 150px;
+  }
+
+.prop{
+    height: 130px;
+}
+.descTitle{
+    text-align: center;
+}
+
+@media (min-width: 992px){
+    .banner-col .vertical-align-parent {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (min-width: 1200px){
+    .banner-col .max-height {
+        height: 150px;
+    }
+}
+@media (min-width: 992px){
+    .col-md-8 {
+        width: 67%;
+    }
+    .col-md-4 {
+        width: 33%;
+    }
+}
+
+@media (min-width: 992px){
+    .banner-col .vertical-align-child {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .prop-parent {
+        display: none;
+    }
+    .banner-col  {
+        height: 150px;
+    }
+}
+
+h4, h6 {
+    color: white;
+}
+  
+button {
+    color: blue;
+}

@@ -1,0 +1,15 @@
+.thumbnail {
+  display: inline-block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.image  {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #e6effc;
+}
